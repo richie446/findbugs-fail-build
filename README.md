@@ -2,3 +2,5 @@
 # findbugs-fail-build
 
 Sample project for http://stackoverflow.com/questions/33796044/findbugs-maven-plugin-in-integration-test-module
+
+Build is failing on purpose to show FindBugs working on test code.
