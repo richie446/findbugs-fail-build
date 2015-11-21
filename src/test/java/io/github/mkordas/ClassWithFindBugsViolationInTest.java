@@ -1,6 +1,6 @@
 package io.github.mkordas;
 
-public class AppTest {
+public class ClassWithFindBugsViolationInTest {
     private void unusedPrivateMethod() {
     }
 }
