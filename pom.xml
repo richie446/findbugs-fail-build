@@ -29,7 +29,7 @@
                 <executions>
                     <execution>
                         <id>analyze-compile</id>
-                        <phase>compile</phase>
+                        <phase>test-compile</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
