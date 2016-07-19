@@ -31,7 +31,7 @@
                     <xmlOutput>true</xmlOutput>
                     <findbugsXmlOutputDirectory>${project.build.directory}/findbugs</findbugsXmlOutputDirectory>
                     <includeTests>true</includeTests>
-                    <failOnError>true</failOnError>
+                    <failOnError>false</failOnError>
                     <classFilesDirectory>${project.build.testOutputDirectory}</classFilesDirectory>
                 </configuration>
                 <executions>
@@ -39,7 +39,7 @@
                         <id>findbugs</id>
                         <phase>test-compile</phase>
                         <goals>
-                            <goal>check</goal>
+                            <goal>findbugs</goal>
                         </goals>
                     </execution>
                 </executions>
