@@ -21,7 +21,7 @@
 		</dependencies>
     <build>
         <plugins>
-            <!--<plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>3.0.3</version>
@@ -43,12 +43,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>-->
-						<plugin>
-								<groupId>org.codehaus.mojo</groupId>
-								<artifactId>findbugs-maven-plugin</artifactId>
-								<version>3.0.3</version>
-						</plugin>
+            </plugin>
         </plugins>
     </build>
 </project>
